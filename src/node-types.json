@@ -1,0 +1,130 @@
+[
+  {
+    "type": "keyword",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "datetime",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "Annotation:",
+    "named": false
+  },
+  {
+    "type": "Created:",
+    "named": false
+  },
+  {
+    "type": "Dependencies:",
+    "named": false
+  },
+  {
+    "type": "Description:",
+    "named": false
+  },
+  {
+    "type": "Due:",
+    "named": false
+  },
+  {
+    "type": "Ended:",
+    "named": false
+  },
+  {
+    "type": "ID:",
+    "named": false
+  },
+  {
+    "type": "Mask:",
+    "named": false
+  },
+  {
+    "type": "Modified:",
+    "named": false
+  },
+  {
+    "type": "Parent:",
+    "named": false
+  },
+  {
+    "type": "Project:",
+    "named": false
+  },
+  {
+    "type": "Recur:",
+    "named": false
+  },
+  {
+    "type": "Scheduled:",
+    "named": false
+  },
+  {
+    "type": "Started:",
+    "named": false
+  },
+  {
+    "type": "Status:",
+    "named": false
+  },
+  {
+    "type": "Tags:",
+    "named": false
+  },
+  {
+    "type": "UDA priority",
+    "named": false
+  },
+  {
+    "type": "UUID:",
+    "named": false
+  },
+  {
+    "type": "Until:",
+    "named": false
+  },
+  {
+    "type": "Wait until:",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "datetime",
+    "named": true
+  },
+  {
+    "type": "iMask:",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  }
+]

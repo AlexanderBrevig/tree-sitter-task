@@ -1,0 +1,65 @@
+==================
+Complete task
+==================
+
+# Name               Editable details
+# -----------------  ----------------------------------------------------
+# ID:                2
+# UUID:              d8fc8c1e-010b-4a7a-8f72-0501549dfcb1
+# Status:            Pending
+# Mask:              
+# iMask:             
+  Project:           helix.sigtstp
+  Tags:              gh pr
+  Description:       Respect SIG_IGN for SIGTSTP
+  Created:           2022-08-05 20:47:40
+  Started:           
+  Ended:             
+  Scheduled:         
+  Due:               
+  Until:             
+  Recur:             
+  Wait until:        
+# Modified:          2022-08-05 20:50:44
+  Parent:            
+  Annotation:        2022-08-18 00:06:09 -- 
+  Dependencies:      
+  UDA priority:      
+
+---
+
+    (source_file
+      (comment)
+      (comment)
+      (comment)
+      (comment)
+      (comment)
+      (comment)
+      (comment)
+      (keyword)
+      (identifier)
+      (keyword)
+      (identifier)
+      (identifier)
+      (keyword)
+      (identifier)
+      (identifier)
+      (identifier)
+      (identifier)
+      (keyword)
+      (datetime)
+      (keyword)
+      (keyword)
+      (keyword)
+      (keyword)
+      (keyword)
+      (keyword)
+      (keyword)
+      (comment)
+      (keyword)
+      (keyword)
+      (datetime)
+      (identifier)
+      (keyword)
+      (keyword)
+      (identifier))

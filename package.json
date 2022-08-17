@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-task",
+  "version": "1.0.0",
+  "description": "Tree-Sitter Grammar for Taskwarrior",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderBrevig/tree-sitter-task.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "task",
+    "taskwarrior",
+    "grammar"
+  ],
+  "author": "Alexander Brevig <alexanderbrevig@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderBrevig/tree-sitter-task/issues"
+  },
+  "homepage": "https://github.com/AlexanderBrevig/tree-sitter-task#readme",
+  "dependencies": {
+    "nan": "^2.16.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.6"
+  }
+}

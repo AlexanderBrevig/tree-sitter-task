@@ -1,0 +1,154 @@
+{
+  "name": "task",
+  "rules": {
+    "source_file": {
+      "type": "REPEAT",
+      "content": {
+        "type": "SYMBOL",
+        "name": "_definition"
+      }
+    },
+    "_definition": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "comment"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "keyword"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "datetime"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "identifier"
+        }
+      ]
+    },
+    "comment": {
+      "type": "PATTERN",
+      "value": "#+.*\\n"
+    },
+    "keyword": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "ID:"
+        },
+        {
+          "type": "STRING",
+          "value": "UUID:"
+        },
+        {
+          "type": "STRING",
+          "value": "Status:"
+        },
+        {
+          "type": "STRING",
+          "value": "Mask:"
+        },
+        {
+          "type": "STRING",
+          "value": "iMask:"
+        },
+        {
+          "type": "STRING",
+          "value": "Project:"
+        },
+        {
+          "type": "STRING",
+          "value": "Tags:"
+        },
+        {
+          "type": "STRING",
+          "value": "Description:"
+        },
+        {
+          "type": "STRING",
+          "value": "Created:"
+        },
+        {
+          "type": "STRING",
+          "value": "Started:"
+        },
+        {
+          "type": "STRING",
+          "value": "Ended:"
+        },
+        {
+          "type": "STRING",
+          "value": "Scheduled:"
+        },
+        {
+          "type": "STRING",
+          "value": "Due:"
+        },
+        {
+          "type": "STRING",
+          "value": "Until:"
+        },
+        {
+          "type": "STRING",
+          "value": "Recur:"
+        },
+        {
+          "type": "STRING",
+          "value": "Wait until:"
+        },
+        {
+          "type": "STRING",
+          "value": "Modified:"
+        },
+        {
+          "type": "STRING",
+          "value": "Parent:"
+        },
+        {
+          "type": "STRING",
+          "value": "Annotation:"
+        },
+        {
+          "type": "STRING",
+          "value": "Dependencies:"
+        },
+        {
+          "type": "STRING",
+          "value": "UDA priority"
+        }
+      ]
+    },
+    "datetime": {
+      "type": "PATTERN",
+      "value": "\\d\\d\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d"
+    },
+    "identifier": {
+      "type": "PATTERN",
+      "value": "\\S+"
+    }
+  },
+  "extras": [
+    {
+      "type": "STRING",
+      "value": " "
+    },
+    {
+      "type": "STRING",
+      "value": "\t"
+    },
+    {
+      "type": "STRING",
+      "value": "\n"
+    }
+  ],
+  "conflicts": [],
+  "precedences": [],
+  "externals": [],
+  "inline": [],
+  "supertypes": []
+}
+
